@@ -242,6 +242,9 @@ img {
 .about__subtitle {
   margin-bottom: var(--mb-2);
 }
+.about__text{
+  text-align: justify;
+}
 .about__img {
   justify-self: center;
 }
@@ -260,6 +263,7 @@ img {
 }
 .skills__text {
   margin-bottom: var(--mb-4);
+  text-align: justify;
 }
 .skills__data {
   display: flex;
@@ -301,6 +305,12 @@ img {
 }
 .skills__react {
   width: 70%;
+}
+.skills__mongodb{
+  width: 60%;
+}
+.skills__sql{
+  width: 60%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -671,4 +681,14 @@ img {
 
 .about__resume-btn{
   margin-top: 20px;
+}
+
+
+
+
+.signup{
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.75rem 2.5rem;
+  border-radius: 0.5rem;
 }
